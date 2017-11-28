@@ -179,7 +179,11 @@ methodCollection.logHello();
   //Code Here
 
  function makePerson(name, birthday, ssn){
-  return newObject={makePerson}
+  return person={
+    name,
+    birthday,
+    ssn
+  }
 }
 
 
