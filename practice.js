@@ -7,8 +7,11 @@
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
 
   //Code here
-
-
+let me={
+  name:"Kara",
+  age:35,
+}
+alert(me.name);
 
 
 
@@ -22,7 +25,14 @@
 
   //Code here
 
-
+var favoriteThings={
+  band:"Metallica",
+  food:"sushi",
+  person:"Jessica",
+  book:"The Fall of Reach" ,
+  movie:"the Transformers the Movie(1986)" ,
+  holiday:"Halloween"
+};
 
 
 
@@ -32,7 +42,8 @@
 
   //Code here
 
-
+favoriteThings.car="Batmobile";
+favoriteThings.brand="Sony";
 
 
 
@@ -40,7 +51,8 @@
 
   //Code here
 
-
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
 
 
 
@@ -59,6 +71,10 @@ that is named color, with the value being the color of your backpack.
 */
 
   //Code here
+let backPack={};
+let item="firstPocket";
+backPack.firstPocket="chapstick";
+backPack.color="gray";
 
 
 
@@ -68,7 +84,7 @@ that is named color, with the value being the color of your backpack.
 //After you do the above, alert your entire backPack object.
 
   //Code here
-
+alert.backPack;
  
 
 /*
@@ -78,7 +94,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-
+console.log(backPack);
 
 
 
@@ -100,7 +116,8 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
-
+user2.name="Tyler S. McGinnis";
+user2.email="tyler.mcginnis@devmounta.in";
 
 
 
