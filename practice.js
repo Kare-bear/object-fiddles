@@ -140,7 +140,9 @@ user2.email="tyler.mcginnis@devmounta.in";
 
   //Code Here
 
+let methodCollection={
 
+}
 
 
 /*
@@ -152,7 +154,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
   //Code Here
 
 
-
+methodCollection.alertHello=()=>alert("hello");
+methodCollection.logHello=()=>console.log("hello");
 
 
 //Now call your alertHello and logHello methods.
@@ -160,7 +163,7 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
   //Code Here
 
 
-
+methodCollection.logHello();
 
 
 
@@ -175,7 +178,9 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
   //Code Here
 
-
+ function makePerson(name, birthday, ssn){
+  return newObject={makePerson}
+}
 
 
 
@@ -190,4 +195,10 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
   //Code Here
 
-
+function makeCard(cardNumber, expirationDate, securityCode){
+  creditCard={
+    cardNumber,
+    expirationDate,
+    securityCode
+  };return creditCard
+};makeCard();
